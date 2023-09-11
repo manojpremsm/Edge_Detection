@@ -1,6 +1,6 @@
 # Edge_Detection
 
-Libraries install:
+Libraries installed:
 
 opencv library is used  and it can installed as below.
 
