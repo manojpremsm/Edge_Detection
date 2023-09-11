@@ -1,0 +1,8 @@
+# EdgeDetection.srv
+sensor_msgs/CompressedImage input_image
+sensor_msgs/CompressedImage output_image
+---
+bool success
+string message
+
+
