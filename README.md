@@ -1,5 +1,15 @@
 # Edge_Detection
 
+Libraries install:
+
+opencv library is used  and it can installed as below.
+
+open a terminal and type the following command.
+
+    pip install opencv-python
+
+
+
 1. Basic
 
  
@@ -14,7 +24,7 @@ The steps in the algorithm are as follows:
 
 ·       The canny edge detector filter works by identifying areas in the image where there is change in intensity significantly by computing the gradients of the images using derivative filters.
 
-·       The detector has a lower threshold value and an upper threshold value , any edge pixel with an intensity gradient below the lower threshold is discarded and anything above the upper threshold value is considered an edge and in-between this rage is considered to be a weak edge.
+·       The detector has a lower threshold value and an upper threshold value , any edge pixel with an intensity gradient below the lower threshold is discarded and anything above the upper threshold value is considered an edge and in-   between this range is considered to be a weak edge.
 
 Steps to run the program.
 
@@ -29,7 +39,7 @@ The following is the example template to run the file.
 
  
 
-This part of the challenge consists of creating a service for edge detection. To run the service we have navigate to the src folder of Edge_Service catkin package and run the service and client file in the order below. We can write a launch file to launch multiple nodes by running a single file but in my case the computation power of the pc was not that great so I choose to do in in separate terminal. All the commands mentioned below should be run in a different terminal
+This part of the challenge consists of creating a service for edge detection. To run the service we have to navigate to the src folder of Edge_Service catkin package and run the service and client file in the order below. We can write a launch file to launch multiple nodes by running a single file but in my case the computation power of the pc was not that great so I choose to do in separate terminal. All the commands mentioned below should be run in a different terminal
 
  
 
