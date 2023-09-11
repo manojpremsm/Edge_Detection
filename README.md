@@ -22,7 +22,7 @@ The file edge_detection.py is placed in ‘edge_detection_ros/Basic’ . The fil
 
 The following is the example template to run the file.
 
-Python3 path/to/file/edge_detection.py ‘path/to/input/image ‘ ‘path/to/superimposed/outputimage ‘ ‘path/to/edge/output/image’ 200 250.
+     Python3 path/to/file/edge_detection.py ‘path/to/input/image ‘ ‘path/to/superimposed/outputimage ‘ ‘path/to/edge/output/image’ 200 250.
 
 
 2. Vision Ros
@@ -35,21 +35,21 @@ This part of the challenge consists of creating a service for edge detection. To
 
 To initialize the master
 
-·       Roscore
+    roscore
 
  
 
 To start the server
 
-·       rosrun /catkin_package name/ server python file name
+     rosrun /catkin_package name/ server python file name
 
 Ex : rosrun Edge_Service  edge_detection_server.py
 
-                             To run the client
+To run the client
 
-·       rosrun /catkin_package name/ client python file name
+    rosrun /catkin_package name/ client python file name
 
-·       Ex : rosrun Edge_Service  edge_detection_client.py
+    rosrun Edge_Service  edge_detection_client.py
 
  
 
@@ -81,35 +81,34 @@ To run this program, follow these steps. All the commands mentioned below should
 
 To initialize the master
 
-·       Roscore
+    roscore
 
  
 
 This is to run the ros bag so that we can use the recorded data from the bag.
 
-·       rosbag play –clock -l path/to/rosbag
+    rosbag play –clock -l path/to/rosbag
 
  
 
 This run the ros node ‘image_test’
 
-·       rosrun /catkin_package name/ server python file name
+    rosrun /catkin_package name/ server python file name
 
-Ex : rosrun Edge_Service  edge2pc.py
+    rosrun Edge_Service  edge2pc.py
 
  
 
 To start the rviz visualizer.
 
-·       rviz
+    rviz
 
  
 
 The running topics and nodes can be checked using the following commands.
 
-·       rostopic list
-
-·       rosnode list
+    rostopic list
+    rosnode list
 
  
 
@@ -126,25 +125,24 @@ To run this program, follow these steps. All the commands mentioned below should
  
 
 To initialize the master
-
-·       Roscore
-
+          
+    roscore
  
 
 This is to run the ros bag so that we can use the recorded data from the bag.
 
-·       rosbag play –clock -l path/to/rosbag
+    rosbag play –clock -l path/to/rosbag
 
  
 
 This run the ros node ‘PointCloud_Marker_Publisher’
 
-·       rosrun /catkin_package name/ python file.py
+    rosrun /catkin_package name/ python file.py
 
-Ex : rosrun Edge_Service  marker.py
+    rosrun Edge_Service  marker.py
 
  
 
 To start the rviz visualizer.
 
-·       rviz
+    rviz
